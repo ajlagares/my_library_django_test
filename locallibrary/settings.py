@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-=5*w0lzjb%&x7m
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['sleepy-river-58557.herokuapp.com']
+ALLOWED_HOSTS = ['sleepy-river-58557.herokuapp.com','127.0.0.1:8000/']
 
 
 # Application definition
